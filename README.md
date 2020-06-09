@@ -29,6 +29,10 @@ There is only one masternode winner for each PoS block, the winner is  designate
 Therefore,  a masternode could earn rewards in three continuous PoS blocks, and a masternode could also earn nothing in thousand PoS blocks. 
 GameCash  has  60%  PoS  block  reward  in  the  first  year,  54%  is allocated  to  masternode  and  6%  for  coin  staker, by result of this formula: nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8); 
 
+There are estimated total 1440 PoW blocks per day or 43,200 blocks per month or 525,600 PoW blocks per year. And estimated 480 PoS blocks per day or 14,400 blocks per month
+
+The  masternode  feature  also  makes  GameCash  resistant  to Sybil  attacks  which  is  where  imposters  disguise  themselves as several servers so that they can manipulate the blockchain as they want
+
 Algorithm  : Scrypt
 Block Time :   60 seconds
 Block Size  : 2 M
