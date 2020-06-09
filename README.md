@@ -29,6 +29,13 @@ There is only one masternode winner for each PoS block, the winner is  designate
 Therefore,  a masternode could earn rewards in three continuous PoS blocks, and a masternode could also earn nothing in thousand PoS blocks. 
 GameCash  has  60%  PoS  block  reward  in  the  first  year,  54%  is allocated  to  masternode  and  6%  for  coin  staker, by result of this formula: nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8); 
 
+Algorithm  : Scrypt
+Block Time :   60 seconds
+Block Size  : 2 M
+Minimum Stake Age  : 8 hours
+Transaction Confirmation  : 10 blocks
+Masternode reward  : 90% stake reward
+
 
 
 Gamecash uses libsecp256k1,
