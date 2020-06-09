@@ -1,6 +1,35 @@
 # Gamecash
 
-Gamecash is a PoW + PoS-based + Masternode cryptocurrency
+Gamecash is an innovative PoW + PoS-based + Masternode cryptocurrency
+
+Pos/Masternode global interest first year: 60%
+Masternode Reward: 54%
+Pos reward: 6%
+
+Pos/Masternode global interest second year: 30%
+Masternode Reward: 27%
+Pos reward: 3%
+
+Pos/Masternode global interest Third/Fifth year: 15%
+Masternode Reward: 13,5%
+Pos reward: 1,5%
+
+Masternode Collateral: 100,000
+
+Pow: 
+First year: 1
+Second year: 250
+Third/Fifth year: 100
+
+Supply: 300M (genesis time)
+
+Gamecash  has  a  very  special  masternode  reward,  the  reward  is calculated based on PoS (Proof-Of-Stake) instead of PoW (Proof-Of-Work).  
+Each  PoS  block  generates  different  amount  of  GameCash based on the coins staked.
+There is only one masternode winner for each PoS block, the winner is  designated  by  hash  calculation  similar  to  PoW, and it is fully random.
+Therefore,  a masternode could earn rewards in three continuous PoS blocks, and a masternode could also earn nothing in thousand PoS blocks. 
+GameCash  has  60%  PoS  block  reward  in  the  first  year,  54%  is allocated  to  masternode  and  6%  for  coin  staker, by result of this formula: nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8); 
+
+
 
 Gamecash uses libsecp256k1,
 			  libgmp,
